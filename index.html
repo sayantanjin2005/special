@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To My Forever Bestie</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+<div class="bg-glow"></div>
+
+<main>
+
+  <!-- HERO -->
+  <header class="hero">
+    <h1 class="hero-title reveal is-visible">To My Forever Bestie</h1>
+    <p class="hero-sub reveal is-visible reveal-delay-1">Some friendships change with time.<br>But some people never stop being special.</p>
+    <div class="scroll-indicator">
+      <span>SCROLL</span>
+      <span class="scroll-line"></span>
+    </div>
+  </header>
+
+  <!-- MAIN STATEMENT -->
+  <section class="statement wrap">
+    <p class="reveal">Maybe I'm not your best friend anymore.<br>But in my heart, you're still mine.</p>
+    <p class="reveal reveal-delay-1">I don't know what I am to you now.<br>But I know what you will always be to me.</p>
+  </section>
+
+  <!-- FEELINGS -->
+  <section class="wrap">
+    <h2 class="section-heading reveal">What You Still Mean To Me</h2>
+
+    <div class="feeling-block reveal">
+      <div class="feeling-title">You are unforgettable.</div>
+      <p class="feeling-text">I may meet many people in my life, but I know I can never simply replace you.</p>
+    </div>
+
+    <div class="feeling-block reveal">
+      <div class="feeling-title">I still miss you.</div>
+      <p class="feeling-text">Even when I don't say it, there are moments when I remember you and miss the friendship we had.</p>
+    </div>
+
+    <div class="feeling-block reveal">
+      <div class="feeling-title">I still care.</div>
+      <p class="feeling-text">Distance, misunderstandings, or time cannot completely erase the care I have for you.</p>
+    </div>
+
+    <div class="feeling-block reveal">
+      <div class="feeling-title">I don't hate you.</div>
+      <p class="feeling-text">No matter how things changed between us, I never learned how to hate you.</p>
+    </div>
+
+    <div class="feeling-block reveal">
+      <div class="feeling-title">You are still my bestie.</div>
+      <p class="feeling-text">Maybe only in my heart now, but that place still belongs to you.</p>
+    </div>
+  </section>
+
+  <!-- FRIENDSHIP DAY -->
+  <section class="fday wrap">
+    <h2 class="fday-title reveal">Happy Friendship Day, Bestie ❤</h2>
+    <p class="fday-sub reveal reveal-delay-1">Maybe I don't have the right to call you my best friend anymore. But I still wanted to wish you.</p>
+    <div class="fday-date reveal reveal-delay-2">July 30</div>
+    <button class="letter-btn reveal reveal-delay-2" id="letterBtn">Read My Letter</button>
+  </section>
+
+  <!-- LETTER -->
+  <section class="letter-section wrap" id="letter">
+    <h2 class="section-heading letter-heading reveal">A Letter I Never Knew How To Say</h2>
+
+    <div class="letter-panel reveal" id="letterPanel">
+      <p class="letter-body" id="letterBody"><span id="letterTyped"></span><span class="type-cursor" id="typeCursor"></span><span class="letter-signoff" id="letterSignoff">— From someone who still considers you his bestie</span></p>
+    </div>
+  </section>
+
+  <!-- LETTER TEXT (used for the writing animation, kept as a noscript fallback) -->
+  <noscript>
+    <p style="max-width:640px;margin:0 auto;padding:0 28px;font-family:'Cormorant Garamond',serif;color:#d8d6e6;white-space:pre-line;">Dear Bestie,
+
+I don't really know what I am to you anymore.
+
+Maybe I'm not your best friend now.
+Maybe you don't see me the way you used to.
+Maybe you don't even want me in your life anymore.
+
+And honestly, I don't know how much you dislike me now.
+
+But there is one thing I know for sure.
+
+In my heart, you are still my best friend.
+
+I still miss you.
+I still care about you.
+I still remember the little things.
+And no matter how many people I meet, I don't think anyone could ever replace the place you have in my life.
+
+I don't want this letter to make you feel guilty.
+I don't expect anything from you.
+I don't want you to come back just because I'm saying these things.
+
+I only wanted you to know how I feel.
+
+You were one of the most important people in my life.
+And even if our friendship isn't what it used to be, I don't want to erase it.
+
+I don't want to forget you.
+I don't want to pretend that you never mattered.
+
+Because you did.
+You still do.
+
+Maybe in your mind, I'm no longer your best friend.
+
+But in my mind...
+
+You'll always be my bestie.
+
+Happy Friendship Day.
+
+Take care of yourself.
+And no matter where life takes us,
+I will always wish the best for you.</p>
+  </noscript>
+
+  <!-- FINAL -->
+  <section class="final wrap">
+    <p class="reveal">Some people leave your life.<br>Some people stay in your heart.</p>
+    <p class="dim reveal reveal-delay-1">You are one of the people I will always remember.</p>
+
+    <svg class="final-heart reveal reveal-delay-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 21s-7.5-4.8-10-9.6C0.3 7.6 2.4 4 6 4c2 0 3.5 1 4 2.4 0.5-1.4 2-2.4 4-2.4 3.6 0 5.7 3.6 4 7.4C19.5 16.2 12 21 12 21z"
+        stroke="#8b7ff0" stroke-width="1" fill="rgba(139,127,240,0.12)"/>
+    </svg>
+
+    <p class="final-wish reveal reveal-delay-3">Happy Friendship Day, Bestie.</p>
+  </section>
+
+</main>
+
+<footer>made quietly, with care</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
